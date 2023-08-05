@@ -111,7 +111,7 @@ BEGIN_EVENT_TABLE( ProjectManager, wxEvtHandler )
 END_EVENT_TABLE()
 
 bool ProjectManager::sbWindowRectAlreadySaved = false;
-bool ProjectManager::sbSkipPromptingForSave = false;
+bool ProjectManager::sbSkipPromptingForSave = true;
 
 void ProjectManager::SaveWindowSize()
 {
